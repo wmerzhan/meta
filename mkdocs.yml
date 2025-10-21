@@ -3,8 +3,8 @@ site_description: Meta-Analysis Extraction, Synthesis, and Transparency Research
 site_author: MAestro Contributors
 site_url: https://maestro-meta.github.io
 
-repo_name: maestro
-repo_url: https://github.com/your-org/maestro
+repo_name: wmerzhan/meta
+repo_url: https://github.com/wmerzhan/meta
 edit_uri: edit/main/docs/
 
 theme:
@@ -77,7 +77,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org/maestro
+      link: https://github.com/wmerzhan/meta
   version:
     provider: mike
 

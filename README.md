@@ -42,8 +42,8 @@ For detailed setup instructions, see [DEVELOPMENT_SETUP.md](DEVELOPMENT_SETUP.md
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-org/maestro.git
-   cd maestro
+   git clone https://github.com/wmerzhan/meta.git
+   cd meta
    ```
 
 2. **Explore prompt templates:**
@@ -85,8 +85,8 @@ MAestro is licensed under the [MIT License](LICENSE), promoting maximum academic
 
 ## Community
 
-- **Issues:** [GitHub Issues](https://github.com/your-org/maestro/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/your-org/maestro/discussions)
+- **Issues:** [GitHub Issues](https://github.com/wmerzhan/meta/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/wmerzhan/meta/discussions)
 
 ## Citation
 
@@ -97,7 +97,7 @@ If you use MAestro in your research, please cite:
   title = {MAestro: Meta-Analysis Extraction, Synthesis, and Transparency Research Orchestrator},
   author = {MAestro Contributors},
   year = {2025},
-  url = {https://github.com/your-org/maestro}
+  url = {https://github.com/wmerzhan/meta}
 }
 ```
 
