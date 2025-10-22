@@ -1,5 +1,10 @@
 # MAestro
 
+![Tests](https://github.com/wmerzhan/meta/actions/workflows/test.yml/badge.svg)
+![Lint](https://github.com/wmerzhan/meta/actions/workflows/lint.yml/badge.svg)
+![Docs](https://github.com/wmerzhan/meta/actions/workflows/deploy-docs.yml/badge.svg)
+![Coverage](https://img.shields.io/badge/coverage-pending-lightgrey)
+
 **Meta-Analysis Extraction, Synthesis, and Transparency Research Orchestrator**
 
 ## Overview

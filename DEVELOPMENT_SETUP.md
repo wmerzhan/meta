@@ -10,6 +10,7 @@ This guide provides comprehensive instructions for setting up your development e
 - [Development Tools](#development-tools)
 - [Platform-Specific Notes](#platform-specific-notes)
 - [Verification](#verification)
+- [Continuous Integration & Deployment](#continuous-integration--deployment)
 
 ## Prerequisites
 
@@ -307,6 +308,51 @@ poetry run black --check maestro/
 poetry run ruff check maestro/
 poetry run mypy maestro/
 ```
+
+## Continuous Integration & Deployment
+
+### Workflow Overview
+
+- **Tests (`.github/workflows/test.yml`)** — Executes the Python test suite on Ubuntu, Windows, and macOS for every pull request and push to `main`. The job installs `pytest` and only runs it when test files are present; coverage remains placeholder until automated scenarios from Story 1.6 transition from simulation to production (see `docs/stories/1.6.test-microscope-sample-papers.md#dev-agent-record`).
+- **Lint (`.github/workflows/lint.yml`)** — Runs `black`, `ruff`, and `mypy` to enforce formatting, lint rules, and typing standards on every pull request and push to `main`.
+- **Validate Prompts (`.github/workflows/validate-prompts.yml`)** — Verifies that each prompt template includes required metadata and passes markdown sanity checks whenever prompt files change.
+- **Deploy Docs (`.github/workflows/deploy-docs.yml`)** — Builds the MkDocs site with `--strict` mode and deploys it to GitHub Pages on pushes to `main` (can be triggered manually via the Actions tab).
+
+### Run Checks Locally Before Pushing
+
+```bash
+# Test suite (skips gracefully if no tests exist yet)
+python -m pip install --upgrade pip pytest
+pytest
+
+# Formatting, linting, and typing
+python -m pip install black ruff mypy
+black --check scripts
+ruff check scripts
+mypy scripts
+
+# Prompt metadata validation
+python scripts/ci/validate_prompts.py
+
+# Documentation build parity
+python -m pip install mkdocs mkdocs-material
+mkdocs build --strict
+```
+
+### Branch Protection Configuration
+
+1. Open **Settings → Branches** in the GitHub repository.
+2. Create or edit the rule for the `main` branch:
+   - Require status checks to pass before merging and select `Tests`, `Lint`, `Validate Prompts`, and `Deploy Docs`.
+   - Require at least one approving review before merging.
+   - (Optional) Enable additional protections (linear history, signed commits) per team standards.
+3. Communicate these rules to new maintainers so the protection stays aligned with the CI setup.
+
+### Debugging Workflow Failures
+
+- Inspect failing runs via the **Actions** tab and expand the failing step for full logs.
+- Reproduce locally with the commands above, fix issues, and push a new commit.
+- For GitHub Pages failures, download the uploaded artifact to inspect the `site/` output, then re-run the `Deploy Docs` workflow from the Actions UI after fixes.
 
 ## Troubleshooting
 
