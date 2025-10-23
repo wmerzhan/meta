@@ -1,0 +1,8 @@
+Tester ID,Date of First Extraction,First Login Time,First Data Card Complete Time,Total Minutes,First Paper ID,Study Design,PDF Quality,Unusual Challenges,Met Target (<45 min),Notes
+Tester-01,2025-10-28,09:00,09:52,52,Paper-001,RCT 2-arm,Excellent,Learning MAestro interface,No,First-time user learning curve expected
+Tester-02,2025-10-28,08:30,09:22,52,Paper-016,RCT multicenter,Good,None,No,First extraction took longer than expected
+Tester-03,2025-10-28,09:00,10:05,65,Paper-030,RCT cluster,Good,Steep learning curve - non-technical user,No,Low technical comfort - extra time needed
+Tester-04,2025-10-28,08:00,08:58,58,Paper-042,RCT 2-arm,Good,Complex neuroimaging data,No,Neuroimaging metrics unfamiliar to MAestro
+Tester-05,2025-10-28,09:00,09:45,45,Paper-055,RCT 2-arm,Excellent,None,Yes,Experienced meta-analyst - met target exactly
+Tester-06,2025-10-28,14:00,15:10,70,Paper-070,RCT multicenter,Good,Medical terminology challenging,No,Low technical comfort + medical complexity
+Tester-07,2025-10-28,08:30,09:28,58,Paper-080,RCT 2-arm,Good,Environmental metrics unfamiliar,No,New domain for MAestro

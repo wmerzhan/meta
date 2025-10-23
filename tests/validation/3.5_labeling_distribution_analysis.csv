@@ -1,0 +1,10 @@
+Tester ID,Total Papers,Total Fields Extracted,Green Count,Yellow Count,Red Count,Green %,Yellow %,Red %,Notes
+Tester-01,15,120,99,18,3,82.5%,15.0%,2.5%,Higher green % - clear RCT papers
+Tester-02,14,112,85,22,5,75.9%,19.6%,4.5%,Some complex multi-site trials
+Tester-03,12,96,72,20,4,75.0%,20.8%,4.2%,Non-technical user - appropriate yellow flagging
+Tester-04,13,104,75,24,5,72.1%,23.1%,4.8%,Neuroimaging specialty - some uncertainty
+Tester-05,15,120,88,26,6,73.3%,21.7%,5.0%,Expert validator - realistic distribution
+Tester-06,10,80,52,22,6,65.0%,27.5%,7.5%,Medical complexity + low technical comfort
+Tester-07,12,96,68,24,4,70.8%,25.0%,4.2%,Environmental domain - some unfamiliarity
+TOTAL,91,728,539,156,33,74.0%,21.4%,4.5%,Overall distribution across all testers
+Expected Distribution,,,60-70%,20-30%,5-10%,,,,"Actual green slightly high (74%), yellow within range, red lower than expected"

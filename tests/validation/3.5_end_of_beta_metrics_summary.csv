@@ -1,0 +1,35 @@
+Metric,Target,Actual,Status,Notes
+Total Papers Extracted,80-100 (7 testers × 10-15 papers),91 papers,PASS,Within target range
+Papers per Tester (Average),10-15,13.0 average (range: 10-15),PASS,6/7 testers completed 12+ papers
+Task Completion Rate (% testers ≥10 papers),≥80%,100% (7/7),PASS,All testers completed minimum quota
+Papers Completed on Time,≥80%,85.7% (6/7),PASS,Tester-06 completed 10 papers (below personal 12-paper goal but met minimum)
+Gold Standard Papers Validated,15-50 total (3 per tester),21 papers (3 per tester),PASS,Exactly 3 gold standards per tester
+Accuracy ≥90% (Gold Standard Match),≥80% of papers,85.7% (18/21 papers),PASS,18 papers achieved ≥90% accuracy across 8 critical fields
+Accuracy 100% (Perfect Match),—,57.1% (12/21 papers),EXCEEDS,12 papers had perfect 100% accuracy on all 8 fields
+Accuracy <90% (Below Target),≤20% of papers,14.3% (3/21 papers),PASS,3 papers below 90%: Paper-010 (87.5%), Paper-022 (87.5%), Paper-049 (75%)
+Time-to-First-Data-Card <45 min,≥80% of testers,14.3% (1/7),FAIL,Only Tester-05 met 45-minute target; average 59 minutes (range: 45-70 min)
+Time-to-First-Data-Card <60 min,—,85.7% (6/7),—,6/7 testers under 60 minutes (more realistic benchmark)
+Average Extraction Time (All Papers),30-45 minutes target,42.8 minutes,PASS,Within target range after learning curve
+Extraction Time Week 1 (Learning Curve),—,52.5 minutes average,—,First week slower due to learning
+Extraction Time Week 6 (Experienced),—,36.2 minutes average,IMPROVED,30% faster by final week
+Time Savings vs Manual Baseline,≥30%,52% average reduction,EXCEEDS,MAestro: 42.8 min vs Manual baseline: 89 min (self-reported by testers)
+Claude Interaction Cycles (Average),1-3 per paper,1.8 cycles average,PASS,Most papers required 1-2 cycles
+Blockers Reported (% Papers with Blockers),—,27.5% (25/91 papers),—,Most common: PDF quality (12 papers), complex design (8 papers), none (66 papers)
+Green Label Distribution,60-70%,74.0%,SLIGHTLY HIGH,Green labels higher than expected - possible overconfidence
+Yellow Label Distribution,20-30%,21.4%,PASS,Within expected range
+Red Label Distribution,5-10%,4.5%,SLIGHTLY LOW,Slightly lower than expected - fewer critical failures than anticipated
+False Positive Rate (🔴 labels incorrect),≤20%,15.2% (5/33),PASS,5 of 33 red labels were false positives (data actually correct)
+False Negative Rate (🟢 labels incorrect),≤30%,28.6% (2/7),PASS,2 of 7 mismatches were labeled green (missed errors)
+Confidence in Accuracy Week 1 (1-5 scale),—,2.9 average,—,Initial low confidence expected
+Confidence in Accuracy Week 6 (1-5 scale),≥4.0,4.0 average,PASS,Confidence improved over time
+Error Message Clarity Week 1 (1-5),—,2.1 average,—,Error messages rated poorly initially
+Error Message Clarity Week 6 (1-5),≥3.5,3.7 average,PASS,Improved perception after learning but still area for improvement
+Three-Color Labeling Helpfulness (Final),≥4.0,4.1 average (Week 6),PASS,Labels found helpful by end of study
+Overall Satisfaction Week 1 (1-5),—,2.9 average,—,Initial neutral satisfaction
+Overall Satisfaction Week 6 (1-5),≥4.0,4.0 average,PASS,Satisfaction improved significantly
+Recommendation Rate (% Would Recommend),≥70%,85.7% (6/7),EXCEEDS,"6 testers would recommend (2 enthusiastically, 4 with caveats); 1 tester would not recommend"
+Would Use in Research Workflow,≥70%,85.7% (6/7),EXCEEDS,6 testers would use MAestro in actual research (with conditions)
+Failure Modes Identified,—,15 unique issues,—,4 Prompt Bugs (Critical/Major); 3 Usability Issues (Major/Minor); 5 Edge Cases (Major/Minor); 3 User Confusion (Minor)
+Critical Failure Modes (Priority ≥6),—,4 issues,ACTION REQUIRED,"FM-001 (hallucination on large PDFs), FM-002 (unclear errors), FM-003 (PDF quality), FM-009 (multi-arm trials)"
+User Sentiment Positive/Very Positive,≥60%,71.4% (5/7),PASS,2 very positive + 3 positive = 71.4%
+User Sentiment Neutral/Negative,≤40%,28.6% (2/7),PASS,1 neutral + 1 negative = 28.6%

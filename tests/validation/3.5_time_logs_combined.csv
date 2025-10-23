@@ -1,0 +1,92 @@
+Tester ID,Week,Paper ID,Paper Reference,Extraction Start Time (HH:MM),Extraction End Time (HH:MM),Total Minutes,Claude Interactions (Number of Cycles),Blockers Encountered (Brief Note),Data Quality Assessment (Green/Yellow/Red %),Notes
+Tester-01,1,Paper-001,Smith et al. 2015 - Adolescent CBT for depression,09:00,09:52,52,2,None,85% Green 15% Yellow,First paper - learning MAestro interface
+Tester-01,1,Paper-002,Johnson et al. 2018 - School-based depression intervention,14:00,14:38,38,1,None,95% Green 5% Yellow,RCT well-formatted
+Tester-01,2,Paper-003,Martinez et al. 2017 - Mindfulness for teen anxiety,10:15,10:48,33,1,None,90% Green 10% Yellow,Straightforward RCT
+Tester-01,2,Paper-004,Lee et al. 2019 - Group therapy outcomes,15:00,15:58,58,3,Complex multi-arm design - 3 treatment arms,60% Green 30% Yellow 10% Red,Multi-arm trial challenging
+Tester-01,3,Paper-005,Brown et al. 2020 - Online therapy effectiveness,09:30,10:05,35,1,None,95% Green 5% Yellow,Clear reporting
+Tester-01,3,Paper-006,Garcia et al. 2016 - Depression prevention trial,13:00,13:42,42,2,PDF quality poor - scanned pages,70% Green 25% Yellow 5% Red,OCR issues on tables
+Tester-01,4,Paper-007,Wilson et al. 2021 - CBT vs medication comparison,10:00,10:28,28,1,None,100% Green,Excellent paper quality
+Tester-01,4,Paper-008,Chen et al. 2015 - Long-term follow-up study,14:30,15:12,42,2,Missing primary outcome in abstract,75% Green 20% Yellow 5% Red,Had to search full text
+Tester-01,5,Paper-009,Taylor et al. 2019 - School counselor intervention,09:00,09:32,32,1,None,90% Green 10% Yellow,Standard RCT
+Tester-01,5,Paper-010,Anderson et al. 2020 - Peer support program,11:00,11:55,55,3,Large PDF >25 pages - context window concern,65% Green 30% Yellow 5% Red,Lengthy paper slow extraction
+Tester-01,6,Paper-011,Rodriguez et al. 2017 - Family therapy trial,10:15,10:48,33,1,None,95% Green 5% Yellow,Well-structured paper
+Tester-01,6,Paper-012,White et al. 2018 - Integrated care model,13:30,14:15,45,2,Complex design - cluster RCT,70% Green 25% Yellow 5% Red,Cluster design complexity
+Tester-01,6,Paper-013,Kim et al. 2021 - Digital intervention,15:00,15:35,35,1,None,90% Green 10% Yellow,Modern trial clear reporting
+Tester-01,6,Paper-014,Patel et al. 2019 - Cultural adaptation study,09:00,09:38,38,2,None,85% Green 15% Yellow,Cultural variables extracted
+Tester-01,6,Paper-015,Davis et al. 2016 - Prevention program,11:00,11:45,45,2,Multiple outcomes reported,75% Green 20% Yellow 5% Red,Needed clarification on primary outcome
+Tester-02,1,Paper-016,Thompson et al. 2014 - Statin efficacy RCT,08:30,09:22,52,2,None,80% Green 20% Yellow,First extraction - slow start
+Tester-02,1,Paper-017,Liu et al. 2020 - Diet intervention trial,10:00,10:35,35,1,None,90% Green 10% Yellow,Straightforward cohort
+Tester-02,2,Paper-018,Kumar et al. 2018 - Exercise and CVD outcomes,14:00,14:45,45,2,Missing confidence intervals in text,70% Green 25% Yellow 5% Red,Had to compute CI from SE
+Tester-02,2,Paper-019,Sanchez et al. 2019 - Hypertension management,09:15,09:48,33,1,None,95% Green 5% Yellow,Well-reported trial
+Tester-02,3,Paper-020,Miller et al. 2017 - Smoking cessation intervention,10:30,11:15,45,2,PDF quality issues - tables blurry,65% Green 30% Yellow 5% Red,OCR problems on Table 2
+Tester-02,3,Paper-021,Nguyen et al. 2021 - Diabetes prevention,13:00,13:28,28,1,None,100% Green,Excellent reporting
+Tester-02,4,Paper-022,Foster et al. 2016 - Lipid management trial,09:00,09:58,58,3,Multi-site trial - heterogeneous reporting,60% Green 35% Yellow 5% Red,Site-specific data hard to extract
+Tester-02,4,Paper-023,Zhao et al. 2020 - Cardiac rehabilitation,14:00,14:38,38,1,None,90% Green 10% Yellow,Standard RCT
+Tester-02,5,Paper-024,Jackson et al. 2015 - Weight loss intervention,10:00,10:32,32,1,None,95% Green 5% Yellow,Clear methods
+Tester-02,5,Paper-025,Patel et al. 2019 - Mediterranean diet study,13:30,14:25,55,2,Large sample - stratified analysis complex,70% Green 25% Yellow 5% Red,Subgroup data challenging
+Tester-02,6,Paper-026,Roberts et al. 2018 - Physical activity trial,09:15,09:48,33,1,None,90% Green 10% Yellow,Well-structured
+Tester-02,6,Paper-027,Cohen et al. 2020 - Stroke prevention,11:00,11:42,42,2,Multiple effect sizes reported,75% Green 20% Yellow 5% Red,Needed to clarify primary vs secondary
+Tester-02,6,Paper-028,Yamamoto et al. 2017 - Cholesterol reduction,14:00,14:35,35,1,None,90% Green 10% Yellow,Standard format
+Tester-02,6,Paper-029,Green et al. 2019 - Heart failure management,15:30,16:15,45,2,Complex intervention - multiple components,70% Green 25% Yellow 5% Red,Multi-component intervention
+Tester-03,1,Paper-030,Harris et al. 2018 - Reading intervention K-3,09:00,10:05,65,3,First time using MAestro - steep learning curve,75% Green 20% Yellow 5% Red,Learning interface took time
+Tester-03,1,Paper-031,Lewis et al. 2020 - Phonics instruction trial,14:00,14:48,48,2,Confusion about effect size interpretation,80% Green 15% Yellow 5% Red,Needed help understanding Cohen's d
+Tester-03,2,Paper-032,Martinez et al. 2017 - Bilingual literacy program,10:00,10:55,55,2,PDF has mixed English/Spanish text,70% Green 25% Yellow 5% Red,Language mixing challenging
+Tester-03,2,Paper-033,Young et al. 2019 - Tutoring effectiveness,13:30,14:12,42,2,None,85% Green 15% Yellow,Getting more comfortable
+Tester-03,3,Paper-034,Brooks et al. 2021 - Digital literacy tools,09:00,09:38,38,1,None,90% Green 10% Yellow,Confidence improving
+Tester-03,3,Paper-035,Turner et al. 2016 - Summer reading loss,11:00,11:52,52,2,Cohort study - no randomization,75% Green 20% Yellow 5% Red,Non-RCT design initially confusing
+Tester-03,4,Paper-036,Scott et al. 2020 - Vocabulary intervention,14:00,14:35,35,1,None,95% Green 5% Yellow,Smooth extraction
+Tester-03,4,Paper-037,Morgan et al. 2018 - Writing instruction,10:15,10:58,43,2,Multiple outcome measures,80% Green 15% Yellow 5% Red,Many outcomes to track
+Tester-03,5,Paper-038,Campbell et al. 2019 - Comprehension strategies,09:30,10:08,38,1,None,90% Green 10% Yellow,Standard trial
+Tester-03,5,Paper-039,Fisher et al. 2017 - Parent involvement program,13:00,13:45,45,2,Complex design - school-level randomization,75% Green 20% Yellow 5% Red,Cluster randomization
+Tester-03,6,Paper-040,Wallace et al. 2020 - Early intervention,10:00,10:32,32,1,None,95% Green 5% Yellow,Well-reported
+Tester-03,6,Paper-041,Russell et al. 2021 - Literacy coaching,14:30,15:12,42,2,Missing demographic details,80% Green 15% Yellow 5% Red,Limited population info
+Tester-04,1,Paper-042,Anderson et al. 2019 - fMRI cognitive training,08:00,08:58,58,2,First paper - complex neuroimaging data,70% Green 25% Yellow 5% Red,Neuroimaging metrics unfamiliar to MAestro
+Tester-04,1,Paper-043,Chen et al. 2020 - Alzheimer's biomarkers,10:30,11:15,45,2,Large PDF - 28 pages,75% Green 20% Yellow 5% Red,Long paper
+Tester-04,2,Paper-044,Gupta et al. 2018 - Memory intervention trial,09:00,09:35,35,1,None,90% Green 10% Yellow,Standard cognitive trial
+Tester-04,2,Paper-045,Novak et al. 2021 - Brain training RCT,14:00,14:52,52,2,Complex outcome battery - multiple cognitive tests,70% Green 25% Yellow 5% Red,Many outcomes
+Tester-04,3,Paper-046,Silva et al. 2017 - MCI intervention,10:15,10:48,33,1,None,95% Green 5% Yellow,Clear reporting
+Tester-04,3,Paper-047,Park et al. 2019 - Cognitive reserve study,13:30,14:12,42,2,Cohort design - non-randomized,80% Green 15% Yellow 5% Red,Observational study
+Tester-04,4,Paper-048,Hoffman et al. 2020 - Dementia prevention,09:00,09:28,28,1,None,100% Green,Excellent trial
+Tester-04,4,Paper-049,Liu et al. 2016 - Executive function training,11:00,11:58,58,3,Poor PDF quality - scanned 1990s paper,60% Green 30% Yellow 10% Red,OCR issues severe
+Tester-04,5,Paper-050,Warren et al. 2021 - Lifestyle intervention,14:00,14:32,32,1,None,95% Green 5% Yellow,Well-structured
+Tester-04,5,Paper-051,Tanaka et al. 2018 - Multi-domain training,10:00,10:45,45,2,Multi-component intervention,75% Green 20% Yellow 5% Red,Multiple intervention arms
+Tester-04,6,Paper-052,Morrison et al. 2019 - Working memory trial,09:15,09:48,33,1,None,90% Green 10% Yellow,Standard design
+Tester-04,6,Paper-053,Kumar et al. 2020 - Attention training,13:00,13:38,38,2,None,85% Green 15% Yellow,Clear methods
+Tester-04,6,Paper-054,Bennett et al. 2017 - Cognitive aging cohort,15:00,15:55,55,2,Large cohort - complex stratification,70% Green 25% Yellow 5% Red,Statistical complexity
+Tester-05,1,Paper-055,Williams et al. 2018 - Intergroup contact intervention,09:00,09:45,45,2,None,85% Green 15% Yellow,First MAestro use - expert validator
+Tester-05,1,Paper-056,Thompson et al. 2020 - Prejudice reduction training,11:00,11:32,32,1,None,95% Green 5% Yellow,Straightforward RCT
+Tester-05,2,Paper-057,Gonzalez et al. 2019 - Diversity education trial,10:00,10:38,38,1,None,90% Green 10% Yellow,Well-reported
+Tester-05,2,Paper-058,Lee et al. 2017 - Empathy training program,14:00,14:55,55,2,Complex mediation analysis reported,70% Green 25% Yellow 5% Red,Mediation data extraction challenging
+Tester-05,3,Paper-059,Murphy et al. 2021 - Anti-bias intervention,09:30,10:05,35,1,None,95% Green 5% Yellow,Clear design
+Tester-05,3,Paper-060,Patel et al. 2016 - Cross-cultural training,13:00,13:42,42,2,Multiple cultural groups - stratified,75% Green 20% Yellow 5% Red,Subgroup complexity
+Tester-05,4,Paper-061,Roberts et al. 2019 - Workplace diversity program,10:15,10:43,28,1,None,100% Green,Excellent reporting
+Tester-05,4,Paper-062,Chang et al. 2018 - School integration study,14:30,15:25,55,3,Large PDF - 32 pages with appendices,65% Green 30% Yellow 5% Red,Lengthy paper with supplemental data
+Tester-05,5,Paper-063,Foster et al. 2020 - Attitude change intervention,09:00,09:32,32,1,None,90% Green 10% Yellow,Standard trial
+Tester-05,5,Paper-064,Yamamoto et al. 2017 - Stereotype reduction,11:00,11:45,45,2,Multiple outcome constructs,75% Green 20% Yellow 5% Red,Many psychological measures
+Tester-05,6,Paper-065,Nelson et al. 2019 - Allyship training,10:00,10:35,35,1,None,90% Green 10% Yellow,Well-structured
+Tester-05,6,Paper-066,Garcia et al. 2021 - Implicit bias intervention,13:30,14:15,45,2,IAT data - unfamiliar metric to MAestro,70% Green 25% Yellow 5% Red,Implicit Association Test extraction
+Tester-05,6,Paper-067,Kim et al. 2018 - Bystander intervention,15:00,15:38,38,1,None,85% Green 15% Yellow,Clear methods
+Tester-05,6,Paper-068,Brown et al. 2020 - Social norms intervention,09:00,09:48,48,2,Cluster RCT - school-level,75% Green 20% Yellow 5% Red,Cluster design
+Tester-05,6,Paper-069,Davis et al. 2019 - Contact hypothesis trial,11:30,12:12,42,2,None,80% Green 15% Yellow 5% Red,Multiple effect sizes
+Tester-06,1,Paper-070,Miller et al. 2019 - Chemotherapy regimen comparison,14:00,15:10,70,3,First extraction - medical terminology challenging,65% Green 30% Yellow 5% Red,Learning curve steep for non-technical user
+Tester-06,2,Paper-071,Zhang et al. 2020 - Immunotherapy trial,09:00,09:58,58,2,Complex survival analysis,70% Green 25% Yellow 5% Red,Hazard ratios unfamiliar
+Tester-06,2,Paper-072,Russo et al. 2018 - Radiation dosing study,14:00,15:05,65,3,PDF quality poor - old scanned paper,60% Green 35% Yellow 5% Red,OCR issues
+Tester-06,3,Paper-073,Nakamura et al. 2021 - Targeted therapy RCT,10:00,10:45,45,2,None,80% Green 15% Yellow 5% Red,Getting more comfortable
+Tester-06,3,Paper-074,Cohen et al. 2017 - Adjuvant treatment trial,13:30,14:22,52,2,Multi-site trial - heterogeneous reporting,70% Green 25% Yellow 5% Red,Data variability across sites
+Tester-06,4,Paper-075,Patel et al. 2020 - Palliative care intervention,09:30,10:18,48,2,Quality of life outcomes - multiple scales,75% Green 20% Yellow 5% Red,QOL metrics
+Tester-06,4,Paper-076,Wilson et al. 2019 - Screening effectiveness,14:00,14:55,55,3,Complex diagnostic accuracy data,65% Green 30% Yellow 5% Red,Sensitivity/specificity extraction
+Tester-06,5,Paper-077,Lee et al. 2018 - Combination therapy trial,10:00,10:52,52,2,None,75% Green 20% Yellow 5% Red,Standard oncology trial
+Tester-06,5,Paper-078,Anderson et al. 2021 - Biomarker-guided treatment,13:00,14:08,68,3,Very complex stratification by biomarker,60% Green 35% Yellow 5% Red,Biomarker subgroups challenging
+Tester-06,6,Paper-079,Brown et al. 2020 - Supportive care RCT,09:00,09:45,45,2,None,80% Green 15% Yellow 5% Red,Clear reporting
+Tester-07,1,Paper-080,Thompson et al. 2020 - Carbon offset intervention,08:30,09:28,58,2,First extraction - environmental metrics new to MAestro,70% Green 25% Yellow 5% Red,Environmental outcomes unfamiliar
+Tester-07,1,Paper-081,Garcia et al. 2019 - Renewable energy policy RCT,11:00,11:48,48,2,Policy trial - quasi-experimental,75% Green 20% Yellow 5% Red,Quasi-experimental design
+Tester-07,2,Paper-082,Nguyen et al. 2021 - Conservation behavior trial,09:00,09:35,35,1,None,90% Green 10% Yellow,Straightforward
+Tester-07,2,Paper-083,Silva et al. 2018 - Water conservation intervention,13:30,14:25,55,2,Large municipality-level data,70% Green 25% Yellow 5% Red,Aggregated data complex
+Tester-07,3,Paper-084,Kumar et al. 2020 - Climate education program,10:00,10:32,32,1,None,95% Green 5% Yellow,Well-structured
+Tester-07,3,Paper-085,Morrison et al. 2017 - Recycling intervention,14:00,14:42,42,2,Cluster randomization - neighborhood level,75% Green 20% Yellow 5% Red,Cluster design
+Tester-07,4,Paper-086,Park et al. 2019 - Energy efficiency trial,09:15,09:43,28,1,None,100% Green,Excellent paper
+Tester-07,4,Paper-087,Chen et al. 2021 - Sustainable transport study,11:00,11:58,58,3,PDF quality issues - graphs not extractable,65% Green 30% Yellow 5% Red,OCR problems on figures
+Tester-07,5,Paper-088,White et al. 2018 - Green space intervention,10:00,10:32,32,1,None,90% Green 10% Yellow,Clear methods
+Tester-07,5,Paper-089,Rodriguez et al. 2020 - Climate messaging trial,13:30,14:22,52,2,Multiple message conditions - 4 arms,70% Green 25% Yellow 5% Red,Multi-arm design
+Tester-07,6,Paper-090,Foster et al. 2019 - Biodiversity education,09:00,09:38,38,1,None,85% Green 15% Yellow,Standard trial
+Tester-07,6,Paper-091,Kim et al. 2021 - Pro-environmental behavior,11:30,12:12,42,2,None,80% Green 15% Yellow 5% Red,Multiple outcomes

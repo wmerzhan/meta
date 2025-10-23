@@ -1,0 +1,4 @@
+Tester ID,Week,Paper ID,Paper Reference,Extraction Start Time (HH:MM),Extraction End Time (HH:MM),Total Minutes,Claude Interactions (Number of Cycles),Blockers Encountered (Brief Note),Data Quality Assessment (Green/Yellow/Red %),Notes
+Tester-01,1,Paper-001,Smith et al. 2015,09:00,09:28,28,1,None,100% Green,RCT well-formatted PDF
+Tester-01,1,Paper-002,Jones et al. 2018,10:00,10:45,45,2,PDF quality poor - difficult reading tables,60% Green 40% Yellow,Complex table formatting
+Tester-02,1,Paper-003,Brown et al. 2016,14:00,14:35,35,1,None,95% Green 5% Yellow,Straightforward cohort study

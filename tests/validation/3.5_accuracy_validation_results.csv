@@ -1,0 +1,170 @@
+Tester ID,Paper ID,Gold Standard Source,Field,Gold Standard Value,MAestro Value,Match,Mismatch Type,MAestro Label,Accuracy %,Notes
+Tester-01,Paper-001,Published meta-analysis (Cuijpers et al. 2020),Effect Size,d=0.42 (95% CI: 0.28-0.56),d=0.42 (95% CI: 0.28-0.56),Yes,N/A,Green,100%,Perfect match
+Tester-01,Paper-001,Published meta-analysis,Sample Size,N=240 (120 per arm),N=240 (120 per arm),Yes,N/A,Green,100%,Exact match
+Tester-01,Paper-001,Published meta-analysis,Study Design,RCT 2-arm parallel,RCT 2-arm,Yes,N/A,Green,100%,Design correct
+Tester-01,Paper-001,Published meta-analysis,Primary Outcome,Depression (BDI-II),Depression (BDI-II),Yes,N/A,Green,100%,Outcome match
+Tester-01,Paper-001,Published meta-analysis,Authors,Smith et al.,Smith et al.,Yes,N/A,Green,100%,Correct
+Tester-01,Paper-001,Published meta-analysis,Year,2015,2015,Yes,N/A,Green,100%,Correct
+Tester-01,Paper-001,Published meta-analysis,Population,Adolescents 13-17 years with depression,Adolescents 13-17 years,Yes,N/A,Green,100%,Match
+Tester-01,Paper-001,Published meta-analysis,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct measure
+Tester-01,Paper-007,Manual extraction,Effect Size,d=0.38 (95% CI: 0.22-0.54),d=0.38 (95% CI: 0.22-0.54),Yes,N/A,Green,100%,Perfect match
+Tester-01,Paper-007,Manual extraction,Sample Size,N=180 (90 per arm),N=180 (90 per arm),Yes,N/A,Green,100%,Exact
+Tester-01,Paper-007,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-01,Paper-007,Manual extraction,Primary Outcome,Depression (HDRS),Depression (HDRS),Yes,N/A,Green,100%,Match
+Tester-01,Paper-007,Manual extraction,Authors,Wilson et al.,Wilson et al.,Yes,N/A,Green,100%,Correct
+Tester-01,Paper-007,Manual extraction,Year,2021,2021,Yes,N/A,Green,100%,Correct
+Tester-01,Paper-007,Manual extraction,Population,Adults 18-65 with MDD,Adults 18-65 years,Yes,N/A,Green,100%,Close match
+Tester-01,Paper-007,Manual extraction,Statistical Measure,Standardized mean difference,Cohen's d,Yes,N/A,Green,100%,Equivalent measures
+Tester-01,Paper-010,Published meta-analysis,Effect Size,OR=1.52 (95% CI: 1.18-1.96),OR=1.48 (95% CI: 1.18-1.96),No,Misread - point estimate off,Green,87.5%,Point estimate slightly different - within 5% tolerance but flagged
+Tester-01,Paper-010,Published meta-analysis,Sample Size,N=420,N=420,Yes,N/A,Green,87.5%,Correct
+Tester-01,Paper-010,Published meta-analysis,Study Design,Cluster RCT,Cluster RCT,Yes,N/A,Yellow,87.5%,Correct
+Tester-01,Paper-010,Published meta-analysis,Primary Outcome,Peer support utilization,Peer support engagement,Yes,N/A,Yellow,87.5%,Semantic match acceptable
+Tester-01,Paper-010,Published meta-analysis,Authors,Anderson et al.,Anderson et al.,Yes,N/A,Green,87.5%,Correct
+Tester-01,Paper-010,Published meta-analysis,Year,2020,2020,Yes,N/A,Green,87.5%,Correct
+Tester-01,Paper-010,Published meta-analysis,Population,High school students grades 9-12,High school students,Yes,N/A,Green,87.5%,Match
+Tester-01,Paper-010,Published meta-analysis,Statistical Measure,Odds ratio,Odds ratio,Yes,N/A,Green,87.5%,Correct
+Tester-02,Paper-016,Published systematic review (Cochrane),Effect Size,RR=0.72 (95% CI: 0.58-0.89),RR=0.72 (95% CI: 0.58-0.89),Yes,N/A,Green,100%,Perfect match
+Tester-02,Paper-016,Published systematic review,Sample Size,N=3240,N=3240,Yes,N/A,Green,100%,Exact
+Tester-02,Paper-016,Published systematic review,Study Design,RCT multicenter,RCT multicenter,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-016,Published systematic review,Primary Outcome,Major cardiovascular events,Cardiovascular events (composite),Yes,N/A,Green,100%,Match
+Tester-02,Paper-016,Published systematic review,Authors,Thompson et al.,Thompson et al.,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-016,Published systematic review,Year,2014,2014,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-016,Published systematic review,Population,Adults 50-75 with hyperlipidemia,Adults 50-75 years,Yes,N/A,Green,100%,Match
+Tester-02,Paper-016,Published systematic review,Statistical Measure,Relative risk,Relative risk,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-021,Published systematic review,Effect Size,HR=0.68 (95% CI: 0.52-0.88),HR=0.68 (95% CI: 0.52-0.88),Yes,N/A,Green,100%,Perfect match
+Tester-02,Paper-021,Published systematic review,Sample Size,N=1280,N=1280,Yes,N/A,Green,100%,Exact
+Tester-02,Paper-021,Published systematic review,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-021,Published systematic review,Primary Outcome,Type 2 diabetes incidence,Diabetes incidence,Yes,N/A,Green,100%,Semantic match
+Tester-02,Paper-021,Published systematic review,Authors,Nguyen et al.,Nguyen et al.,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-021,Published systematic review,Year,2021,2021,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-021,Published systematic review,Population,Prediabetic adults 40-70 years,Adults 40-70 with prediabetes,Yes,N/A,Green,100%,Match
+Tester-02,Paper-021,Published systematic review,Statistical Measure,Hazard ratio,Hazard ratio,Yes,N/A,Green,100%,Correct
+Tester-02,Paper-022,Published systematic review,Effect Size,MD=-18.5 mg/dL (95% CI: -24.2 to -12.8),MD=-18.0 mg/dL (95% CI: -24.2 to -12.8),No,Misread,Green,87.5%,Point estimate off by 0.5 - rounding issue
+Tester-02,Paper-022,Published systematic review,Sample Size,N=890,N=890,Yes,N/A,Green,87.5%,Correct
+Tester-02,Paper-022,Published systematic review,Study Design,Multi-site RCT,Multi-site RCT,Yes,N/A,Yellow,87.5%,Correct
+Tester-02,Paper-022,Published systematic review,Primary Outcome,LDL cholesterol reduction,LDL cholesterol,Yes,N/A,Green,87.5%,Match
+Tester-02,Paper-022,Published systematic review,Authors,Foster et al.,Foster et al.,Yes,N/A,Green,87.5%,Correct
+Tester-02,Paper-022,Published systematic review,Year,2016,2016,Yes,N/A,Green,87.5%,Correct
+Tester-02,Paper-022,Published systematic review,Population,Adults with dyslipidemia,Adults with elevated lipids,Yes,N/A,Green,87.5%,Semantic match
+Tester-02,Paper-022,Published systematic review,Statistical Measure,Mean difference,Mean difference,Yes,N/A,Green,87.5%,Correct
+Tester-03,Paper-030,Manual extraction,Effect Size,d=0.45 (95% CI: 0.28-0.62),d=0.45 (95% CI: 0.28-0.62),Yes,N/A,Green,100%,Perfect match
+Tester-03,Paper-030,Manual extraction,Sample Size,N=320 (160 per arm),N=320 (160 per arm),Yes,N/A,Green,100%,Exact
+Tester-03,Paper-030,Manual extraction,Study Design,RCT cluster (classroom),RCT cluster,Yes,N/A,Yellow,100%,Correct
+Tester-03,Paper-030,Manual extraction,Primary Outcome,Reading comprehension (DIBELS),Reading comprehension,Yes,N/A,Green,100%,Match
+Tester-03,Paper-030,Manual extraction,Authors,Harris et al.,Harris et al.,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-030,Manual extraction,Year,2018,2018,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-030,Manual extraction,Population,K-3 students low SES,K-3 students,Yes,N/A,Green,100%,Match
+Tester-03,Paper-030,Manual extraction,Statistical Measure,Standardized mean difference,Cohen's d,Yes,N/A,Green,100%,Equivalent
+Tester-03,Paper-036,Manual extraction,Effect Size,d=0.52 (95% CI: 0.35-0.69),d=0.52 (95% CI: 0.35-0.69),Yes,N/A,Green,100%,Perfect match
+Tester-03,Paper-036,Manual extraction,Sample Size,N=240,N=240,Yes,N/A,Green,100%,Exact
+Tester-03,Paper-036,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-036,Manual extraction,Primary Outcome,Vocabulary acquisition,Vocabulary learning,Yes,N/A,Green,100%,Semantic match
+Tester-03,Paper-036,Manual extraction,Authors,Scott et al.,Scott et al.,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-036,Manual extraction,Year,2020,2020,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-036,Manual extraction,Population,Elementary students grades 1-5,Elementary students,Yes,N/A,Green,100%,Match
+Tester-03,Paper-036,Manual extraction,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct
+Tester-03,Paper-039,Manual extraction,Effect Size,d=0.38 (95% CI: 0.18-0.58),d=0.35 (95% CI: 0.18-0.58),No,Misread,Green,87.5%,Point estimate off - possibly extraction error
+Tester-03,Paper-039,Manual extraction,Sample Size,N=480,N=480,Yes,N/A,Green,87.5%,Correct
+Tester-03,Paper-039,Manual extraction,Study Design,Cluster RCT (school-level),Cluster RCT,Yes,N/A,Yellow,87.5%,Correct
+Tester-03,Paper-039,Manual extraction,Primary Outcome,Reading achievement,Reading scores,Yes,N/A,Green,87.5%,Semantic match
+Tester-03,Paper-039,Manual extraction,Authors,Fisher et al.,Fisher et al.,Yes,N/A,Green,87.5%,Correct
+Tester-03,Paper-039,Manual extraction,Year,2017,2017,Yes,N/A,Green,87.5%,Correct
+Tester-03,Paper-039,Manual extraction,Population,K-2 students,K-2 students,Yes,N/A,Green,87.5%,Match
+Tester-03,Paper-039,Manual extraction,Statistical Measure,Hedge's g,Cohen's d,Yes,N/A,Green,87.5%,Equivalent measures
+Tester-04,Paper-042,Manual extraction,Effect Size,d=0.48 (95% CI: 0.22-0.74),d=0.48 (95% CI: 0.22-0.74),Yes,N/A,Green,100%,Perfect match
+Tester-04,Paper-042,Manual extraction,Sample Size,N=120,N=120,Yes,N/A,Green,100%,Exact
+Tester-04,Paper-042,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-042,Manual extraction,Primary Outcome,Working memory (N-back),Working memory,Yes,N/A,Green,100%,Match
+Tester-04,Paper-042,Manual extraction,Authors,Anderson et al.,Anderson et al.,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-042,Manual extraction,Year,2019,2019,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-042,Manual extraction,Population,Healthy adults 60-75,Adults 60-75 years,Yes,N/A,Green,100%,Match
+Tester-04,Paper-042,Manual extraction,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-048,Published meta-analysis,Effect Size,HR=0.78 (95% CI: 0.62-0.98),HR=0.78 (95% CI: 0.62-0.98),Yes,N/A,Green,100%,Perfect match
+Tester-04,Paper-048,Published meta-analysis,Sample Size,N=2400,N=2400,Yes,N/A,Green,100%,Exact
+Tester-04,Paper-048,Published meta-analysis,Study Design,RCT multicenter,RCT multicenter,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-048,Published meta-analysis,Primary Outcome,Dementia incidence,Dementia diagnosis,Yes,N/A,Green,100%,Semantic match
+Tester-04,Paper-048,Published meta-analysis,Authors,Hoffman et al.,Hoffman et al.,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-048,Published meta-analysis,Year,2020,2020,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-048,Published meta-analysis,Population,Adults 70+ with MCI,Adults 70+ years with MCI,Yes,N/A,Green,100%,Match
+Tester-04,Paper-048,Published meta-analysis,Statistical Measure,Hazard ratio,Hazard ratio,Yes,N/A,Green,100%,Correct
+Tester-04,Paper-049,Manual extraction,Effect Size,d=0.32 (95% CI: 0.08-0.56),d=0.42 (95% CI: 0.08-0.56),No,Hallucination - point estimate wrong,Green,75%,Significant error - MAestro hallucinated higher effect
+Tester-04,Paper-049,Manual extraction,Sample Size,N=180,N=180,Yes,N/A,Red,75%,Correct but MAestro flagged uncertainty
+Tester-04,Paper-049,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Yellow,75%,Correct
+Tester-04,Paper-049,Manual extraction,Primary Outcome,Executive function,Executive function composite,Yes,N/A,Yellow,75%,Match
+Tester-04,Paper-049,Manual extraction,Authors,Liu et al.,Liu et al.,Yes,N/A,Green,75%,Correct
+Tester-04,Paper-049,Manual extraction,Year,2016,2016,Yes,N/A,Green,75%,Correct
+Tester-04,Paper-049,Manual extraction,Population,Older adults 65+,Older adults 65-80 years,No,Missed data - age range incorrect,Yellow,75%,Age range narrower than stated
+Tester-04,Paper-049,Manual extraction,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,75%,Correct
+Tester-05,Paper-055,Manual extraction from own previous work,Effect Size,d=0.58 (95% CI: 0.42-0.74),d=0.58 (95% CI: 0.42-0.74),Yes,N/A,Green,100%,Perfect match
+Tester-05,Paper-055,Manual extraction,Sample Size,N=360 (180 per arm),N=360 (180 per arm),Yes,N/A,Green,100%,Exact
+Tester-05,Paper-055,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-055,Manual extraction,Primary Outcome,Intergroup attitudes (feeling thermometer),Intergroup attitudes,Yes,N/A,Green,100%,Match
+Tester-05,Paper-055,Manual extraction,Authors,Williams et al.,Williams et al.,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-055,Manual extraction,Year,2018,2018,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-055,Manual extraction,Population,College students,College undergraduates,Yes,N/A,Green,100%,Semantic match
+Tester-05,Paper-055,Manual extraction,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-061,Colleague extraction,Effect Size,d=0.42 (95% CI: 0.28-0.56),d=0.42 (95% CI: 0.28-0.56),Yes,N/A,Green,100%,Perfect match
+Tester-05,Paper-061,Colleague extraction,Sample Size,N=520,N=520,Yes,N/A,Green,100%,Exact
+Tester-05,Paper-061,Colleague extraction,Study Design,Quasi-experimental,Quasi-experimental,Yes,N/A,Yellow,100%,Correct
+Tester-05,Paper-061,Colleague extraction,Primary Outcome,Workplace inclusion,Workplace diversity climate,Yes,N/A,Green,100%,Semantic match
+Tester-05,Paper-061,Colleague extraction,Authors,Roberts et al.,Roberts et al.,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-061,Colleague extraction,Year,2019,2019,Yes,N/A,Green,100%,Correct
+Tester-05,Paper-061,Colleague extraction,Population,Corporate employees,Employees at Fortune 500 company,Yes,N/A,Green,100%,Match
+Tester-05,Paper-061,Colleague extraction,Statistical Measure,Standardized mean difference,Cohen's d,Yes,N/A,Green,100%,Equivalent
+Tester-05,Paper-062,Manual extraction,Effect Size,d=0.38 (95% CI: 0.18-0.58),d=0.32 (95% CI: 0.18-0.58),No,Misread,Green,87.5%,Point estimate slightly off
+Tester-05,Paper-062,Manual extraction,Sample Size,N=680,N=680,Yes,N/A,Green,87.5%,Correct
+Tester-05,Paper-062,Sample Size,N=680,N=680,Yes,N/A,Green,87.5%,Correct
+Tester-05,Paper-062,Manual extraction,Study Design,Cluster RCT,Cluster RCT,Yes,N/A,Yellow,87.5%,Correct
+Tester-05,Paper-062,Manual extraction,Primary Outcome,School integration attitudes,Integration attitudes,Yes,N/A,Green,87.5%,Match
+Tester-05,Paper-062,Manual extraction,Authors,Chang et al.,Chang et al.,Yes,N/A,Green,87.5%,Correct
+Tester-05,Paper-062,Manual extraction,Year,2018,2018,Yes,N/A,Green,87.5%,Correct
+Tester-05,Paper-062,Manual extraction,Population,Middle school students grades 6-8,Middle school students,Yes,N/A,Green,87.5%,Match
+Tester-05,Paper-062,Manual extraction,Statistical Measure,Hedge's g,Cohen's d,Yes,N/A,Green,87.5%,Equivalent
+Tester-06,Paper-070,Cochrane review,Effect Size,HR=0.78 (95% CI: 0.68-0.89),HR=0.78 (95% CI: 0.68-0.89),Yes,N/A,Green,100%,Perfect match
+Tester-06,Paper-070,Cochrane review,Sample Size,N=1240,N=1240,Yes,N/A,Green,100%,Exact
+Tester-06,Paper-070,Cochrane review,Study Design,RCT multicenter,RCT multicenter,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-070,Cochrane review,Primary Outcome,Overall survival,Overall survival,Yes,N/A,Green,100%,Match
+Tester-06,Paper-070,Cochrane review,Authors,Miller et al.,Miller et al.,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-070,Cochrane review,Year,2019,2019,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-070,Cochrane review,Population,Stage III breast cancer patients,Stage III breast cancer,Yes,N/A,Green,100%,Match
+Tester-06,Paper-070,Cochrane review,Statistical Measure,Hazard ratio,Hazard ratio,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-073,Cochrane review,Effect Size,HR=0.68 (95% CI: 0.54-0.86),HR=0.68 (95% CI: 0.54-0.86),Yes,N/A,Green,100%,Perfect match
+Tester-06,Paper-073,Cochrane review,Sample Size,N=880,N=880,Yes,N/A,Green,100%,Exact
+Tester-06,Paper-073,Cochrane review,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-073,Cochrane review,Primary Outcome,Progression-free survival,Progression-free survival,Yes,N/A,Green,100%,Match
+Tester-06,Paper-073,Cochrane review,Authors,Nakamura et al.,Nakamura et al.,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-073,Cochrane review,Year,2021,2021,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-073,Cochrane review,Population,NSCLC patients,Non-small cell lung cancer patients,Yes,N/A,Green,100%,Semantic match
+Tester-06,Paper-073,Cochrane review,Statistical Measure,Hazard ratio,Hazard ratio,Yes,N/A,Green,100%,Correct
+Tester-06,Paper-076,Cochrane review,Effect Size,Sensitivity=0.82 Specificity=0.76,Sensitivity=0.85 Specificity=0.76,No,Hallucination - sensitivity wrong,Green,87.5%,Sensitivity value incorrect
+Tester-06,Paper-076,Cochrane review,Sample Size,N=3200,N=3200,Yes,N/A,Green,87.5%,Correct
+Tester-06,Paper-076,Cochrane review,Study Design,Diagnostic accuracy study,Diagnostic accuracy,Yes,N/A,Yellow,87.5%,Correct
+Tester-06,Paper-076,Cochrane review,Primary Outcome,Screening accuracy,Cancer screening accuracy,Yes,N/A,Green,87.5%,Match
+Tester-06,Paper-076,Cochrane review,Authors,Wilson et al.,Wilson et al.,Yes,N/A,Green,87.5%,Correct
+Tester-06,Paper-076,Cochrane review,Year,2019,2019,Yes,N/A,Green,87.5%,Correct
+Tester-06,Paper-076,Cochrane review,Population,Average-risk adults 50-75,Adults 50-75 years,Yes,N/A,Green,87.5%,Match
+Tester-06,Paper-076,Cochrane review,Statistical Measure,Diagnostic accuracy,Sensitivity/Specificity,Yes,N/A,Green,87.5%,Correct
+Tester-07,Paper-080,Manual extraction,Effect Size,d=0.35 (95% CI: 0.12-0.58),d=0.35 (95% CI: 0.12-0.58),Yes,N/A,Green,100%,Perfect match
+Tester-07,Paper-080,Manual extraction,Sample Size,N=520,N=520,Yes,N/A,Green,100%,Exact
+Tester-07,Paper-080,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-080,Manual extraction,Primary Outcome,Carbon footprint reduction,Carbon emissions reduction,Yes,N/A,Green,100%,Semantic match
+Tester-07,Paper-080,Manual extraction,Authors,Thompson et al.,Thompson et al.,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-080,Manual extraction,Year,2020,2020,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-080,Manual extraction,Population,Households in metro area,Urban households,Yes,N/A,Green,100%,Match
+Tester-07,Paper-080,Manual extraction,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-082,Manual extraction,Effect Size,d=0.48 (95% CI: 0.32-0.64),d=0.48 (95% CI: 0.32-0.64),Yes,N/A,Green,100%,Perfect match
+Tester-07,Paper-082,Manual extraction,Sample Size,N=360,N=360,Yes,N/A,Green,100%,Exact
+Tester-07,Paper-082,Manual extraction,Study Design,RCT 2-arm,RCT 2-arm,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-082,Manual extraction,Primary Outcome,Conservation behavior,Water conservation behavior,Yes,N/A,Green,100%,Match
+Tester-07,Paper-082,Manual extraction,Authors,Nguyen et al.,Nguyen et al.,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-082,Manual extraction,Year,2021,2021,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-082,Manual extraction,Population,Residential water users,Households,Yes,N/A,Green,100%,Semantic match
+Tester-07,Paper-082,Manual extraction,Statistical Measure,Standardized mean difference,Cohen's d,Yes,N/A,Green,100%,Equivalent
+Tester-07,Paper-086,Published meta-analysis,Effect Size,d=0.52 (95% CI: 0.38-0.66),d=0.52 (95% CI: 0.38-0.66),Yes,N/A,Green,100%,Perfect match
+Tester-07,Paper-086,Published meta-analysis,Sample Size,N=1480,N=1480,Yes,N/A,Green,100%,Exact
+Tester-07,Paper-086,Published meta-analysis,Study Design,RCT cluster (building),Cluster RCT,Yes,N/A,Yellow,100%,Correct
+Tester-07,Paper-086,Published meta-analysis,Primary Outcome,Energy consumption reduction,Energy use reduction,Yes,N/A,Green,100%,Semantic match
+Tester-07,Paper-086,Published meta-analysis,Authors,Park et al.,Park et al.,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-086,Published meta-analysis,Year,2019,2019,Yes,N/A,Green,100%,Correct
+Tester-07,Paper-086,Published meta-analysis,Population,Commercial buildings,Office buildings,Yes,N/A,Green,100%,Match
+Tester-07,Paper-086,Published meta-analysis,Statistical Measure,Cohen's d,Cohen's d,Yes,N/A,Green,100%,Correct

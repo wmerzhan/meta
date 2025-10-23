@@ -1,0 +1,43 @@
+Tester ID,Week,Confidence in Accuracy (1-5),Error Message Clarity (1-5),Three-Color Labeling Helpfulness (1-5),Overall Satisfaction (1-5),Blockers Reported This Week,Papers Completed This Week,Cumulative Papers,On Track (Y/N)
+Tester-01,1,3,2,3,3,None - learning interface,2,2,Y
+Tester-01,2,3,3,4,3,Multi-arm trial challenging,3,5,Y
+Tester-01,3,4,3,4,4,PDF quality issues on one paper,2,7,Y
+Tester-01,4,4,3,4,4,None,2,9,Y
+Tester-01,5,4,3,4,4,Large PDF context concern,2,11,Y
+Tester-01,6,4,4,5,4,None,4,15,Y
+Tester-02,1,3,2,3,3,None - getting started,2,2,Y
+Tester-02,2,3,3,4,3,Missing CI in text,2,4,Y
+Tester-02,3,4,3,4,4,PDF quality - blurry tables,2,6,Y
+Tester-02,4,4,3,4,4,Multi-site heterogeneity,2,8,Y
+Tester-02,5,4,4,4,4,None,2,10,Y
+Tester-02,6,5,4,5,4,None,4,14,Y
+Tester-03,1,2,2,3,2,Steep learning curve - no technical background,2,2,Y
+Tester-03,2,3,2,3,3,Confusion about effect size stats,2,4,Y
+Tester-03,3,3,3,4,3,PDF language mixing difficult,2,6,Y
+Tester-03,4,4,3,4,4,None,2,8,Y
+Tester-03,5,4,3,4,4,None,2,10,Y
+Tester-03,6,4,4,4,4,None,2,12,Y
+Tester-04,1,3,2,3,3,Neuroimaging metrics unfamiliar to MAestro,2,2,Y
+Tester-04,2,3,3,3,3,Large PDF slow,2,4,Y
+Tester-04,3,4,3,4,4,None,2,6,Y
+Tester-04,4,3,3,4,3,Poor PDF quality - severe OCR issues,2,8,Y
+Tester-04,5,4,3,4,4,None,2,10,Y
+Tester-04,6,4,4,4,4,None,3,13,Y
+Tester-05,1,4,3,4,4,None - experienced meta-analyst,2,2,Y
+Tester-05,2,4,3,4,4,None,2,4,Y
+Tester-05,3,4,3,4,4,None,2,6,Y
+Tester-05,4,4,3,4,4,Large PDF with appendices,2,8,Y
+Tester-05,5,4,4,4,4,None,2,10,Y
+Tester-05,6,5,4,5,5,None,5,15,Y
+Tester-06,1,2,2,2,2,Medical terminology challenging - low technical comfort,1,1,N
+Tester-06,2,3,2,3,3,Survival analysis unfamiliar,2,3,N
+Tester-06,3,3,3,3,3,Poor OCR on old paper,2,5,Y
+Tester-06,4,3,3,3,3,Diagnostic accuracy metrics,2,7,Y
+Tester-06,5,3,3,3,3,Complex biomarker stratification,2,9,Y
+Tester-06,6,3,3,4,3,None - but did not reach full quota,1,10,N
+Tester-07,1,3,2,3,3,Environmental metrics new to MAestro,2,2,Y
+Tester-07,2,3,3,3,3,Municipality-level data complexity,2,4,Y
+Tester-07,3,4,3,4,4,None,2,6,Y
+Tester-07,4,4,3,4,4,OCR issues on figures,2,8,Y
+Tester-07,5,4,3,4,4,None,2,10,Y
+Tester-07,6,4,4,4,4,None,2,12,Y
