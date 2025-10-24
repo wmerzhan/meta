@@ -31,6 +31,8 @@ Contributions can take many forms:
 4. **Discipline modules** - Add quality checklists for specific research disciplines
 5. **Documentation** - Improve guides, tutorials, or API documentation
 6. **Code contributions** - Enhance CLI tools or VS Code extension (CROS phase and beyond)
+7. **Success stories & testimonials** - Share validated user stories, quotes, or credibility signals
+8. **Launch metrics updates** - Add data to `docs/launch/metrics-dashboard.md` or propose new outreach experiments
 
 ## Contribution Types
 
@@ -92,6 +94,16 @@ Documentation is critical for MAestro's accessibility:
 - Include practical examples and step-by-step instructions
 - Test documentation with new users when possible
 - Update related documentation when making changes
+
+### Launch Content & Community Assets
+
+Launch materials live under `docs/case-studies/` and `docs/launch/`. Contributions should:
+- Reference validated data sources (Story 3.5 metrics, Story 3.6 regression results, RAAA appendix guidance).
+- Cite prompt versions explicitly (Microscope/Compiler/Oracle vX.Y.Z) and link to the relevant CHANGELOG.
+- Follow the success story structure: Context, Workflow, Outcomes, Lessons.
+- Update cross-links (README, docs/index.md, mkdocs navigation) when new assets are added.
+- For testimonials, attach consent notes and metadata in `docs/launch/testimonials.md`.
+- For metrics updates, include data source, collection date, and proposed follow-up actions.
 
 ## Development Standards
 
@@ -176,7 +188,8 @@ Discipline-specific modules require additional peer review:
 
 ## Getting Help
 
-- **Questions:** Ask in [GitHub Discussions](https://github.com/your-org/maestro/discussions)
+- **Questions:** Ask in [GitHub Discussions](https://github.com/wmerzhan/meta/discussions)
+- **Launch feedback:** Comment on the pinned `Launch Updates` discussion after reading the metrics dashboard
 - **Bug reports:** File an issue with detailed reproduction steps
 - **Feature ideas:** Open a discussion to gather feedback before implementation
 - **Security issues:** Email security@maestro-meta.org (do not file public issues)

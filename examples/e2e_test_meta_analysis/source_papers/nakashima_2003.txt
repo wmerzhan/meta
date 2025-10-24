@@ -1,0 +1,110 @@
+CLINICAL SIGNIFICANCE OF CIRCULATING TUMOR CELLS IN BLOOD BY MOLECULAR DETECTION AND TUMOR MARKERS IN ESOPHAGEAL CANCER
+
+Nakashima S, Natsugoe S, Matsumoto M, Miyazono F, Takao S, Uchikura K, Tokuda K, Ishigami S, Baba M, Takaki Y, Aikou T.
+
+Department of Surgical Oncology, Kagoshima University, Kagoshima, Japan.
+
+OBJECTIVE: Circulating tumor cells (CTCs) are increasingly recognized as important biomarkers for cancer prognosis. The purpose of this study was to examine the clinical significance of CTCs detected by molecular methods in patients with esophageal cancer.
+
+METHODS:
+Study Design: Prospective cohort study conducted from 2000-2002.
+Setting: Single institution (Kagoshima University Hospital, Japan)
+Participants: 54 patients with histologically confirmed esophageal squamous cell carcinoma (ESCC) undergoing surgical resection.
+
+Inclusion Criteria:
+- Histologically proven ESCC
+- Candidates for curative surgical resection
+- No prior chemotherapy or radiotherapy
+
+Exclusion Criteria:
+- Metastatic disease
+- Prior cancer treatment
+- Cardiac or pulmonary contraindications to surgery
+
+Demographics:
+- Mean age: 64.3 years (range 48-78)
+- Gender: 47 male (87%), 7 female (13%)
+- Tumor location: Upper third (n=8), Middle third (n=22), Lower third (n=24)
+- Tumor stage: Stage I (n=8), Stage II (n=16), Stage III (n=22), Stage IV (n=8)
+
+CTC Detection Method:
+Circulating tumor cells were detected using reverse transcriptase-polymerase chain reaction (RT-PCR) targeting carcinoembryonic antigen (CEA) mRNA. This molecular approach detects cancer-derived mRNA in peripheral blood.
+
+Procedure:
+- Venous blood samples (7.5 mL) collected before surgery (baseline), 1 day after surgery, and at 3-month follow-up
+- Leukocyte separation using density gradient centrifugation
+- RNA extraction and RT-PCR amplification with CEA-specific primers
+- Gel electrophoresis and visualization of 247-bp CEA mRNA product
+- GAPDH amplification as internal control
+- Positive result defined as visible CEA mRNA band
+
+Quality Assessment:
+- Baseline patient characteristics: Age, gender, tumor stage compared between CTC-positive and CTC-negative groups
+- Randomization: N/A (cohort study)
+- Allocation concealment: N/A
+- Blinding: Pathologists blinded to CTC status; laboratory technicians not blinded
+
+RESULTS:
+CTC Detection Rates:
+- Preoperative: 19/54 patients positive (35.2%, 95% CI 23-49%)
+- 1 day postoperative: 28/54 positive (51.9%, 95% CI 39-65%)
+- 3-month follow-up: 12/54 positive (22.2%, 95% CI 13-34%)
+
+Association with Clinicopathologic Factors:
+CTC-positive patients had significantly more advanced tumors (Stage III-IV vs I-II):
+- CTC+ group: 13/19 Stage III-IV (68.4%)
+- CTC- group: 17/35 Stage I-II (48.6%)
+- p = 0.043 (chi-square test)
+
+Survival Analysis:
+- Overall survival (OS) at 3 years: CTC+ 26.3% vs CTC- 65.7% (log-rank p = 0.012)
+- Disease-free survival (DFS) at 3 years: CTC+ 10.5% vs CTC- 57.1% (log-rank p = 0.008)
+- Hazard ratio for OS: HR = 2.8 (95% CI 1.2-6.1, adjusted for stage)
+- Hazard ratio for DFS: HR = 3.2 (95% CI 1.4-7.0, adjusted for stage)
+
+Missing Data:
+- 3 patients lost to follow-up after 6 months (ESCC metastasis); included in analysis with last available timepoint
+- 2 patients withdrew consent; excluded from statistical analysis
+- Final analysis N = 49 patients for outcome data
+
+DISCUSSION:
+CTCs detected by RT-PCR are independent prognostic indicators in ESCC. Preoperative CTC detection status correlates with tumor stage and predicts postoperative survival. Molecular detection of CTCs may complement traditional tumor markers (CEA, CA19-9) in identifying high-risk patients requiring adjuvant therapy. However, sensitivity/specificity values not calculated due to cohort design without validation set.
+
+LIMITATIONS:
+1. Single-institution design limits generalizability
+2. Relatively small sample size (n=54)
+3. Limited to ESCC; findings may not apply to adenocarcinoma
+4. RT-PCR method more sensitive but less specific than immunocytochemistry
+5. No comparison to other detection methods
+6. Follow-up period limited to 3 years (median survival data incomplete)
+
+CONCLUSIONS:
+Preoperative CTC detection by RT-PCR identifies patients with poor prognosis and potential candidates for intensified neoadjuvant therapy. Future studies should validate these findings in larger cohorts and compare detection methods.
+
+FUNDING: Japanese Society for the Promotion of Science Grant-in-Aid
+CONFLICTS OF INTEREST: None declared
+
+---
+STATISTICAL ANALYSIS DETAILS:
+
+Analysis Methods:
+- Comparison of baseline characteristics: Student t-test (continuous), chi-square test (categorical)
+- Survival analysis: Kaplan-Meier curves, log-rank tests, Cox proportional hazards regression
+- Proportional hazards assumption tested using Schoenfeld residuals (assumptions met, p>0.05)
+- Significance level: α = 0.05
+
+Sample Size Justification:
+- Based on preliminary data showing 35% CTC positivity rate and OS difference ≥30%
+- n=54 provides 80% power to detect difference with α=0.05 (two-tailed)
+- Post-hoc power analysis: achieved power 0.83 for primary outcome
+
+Data Management:
+- Data entry double-checked by two researchers
+- Missing data: 3 patients with incomplete follow-up handled by last-observation-carried-forward for survival analysis
+- Sensitivity analysis performed excluding censored cases; results similar (p-value range 0.008-0.015)
+
+---
+END OF ABSTRACT/SUMMARY
+
+This represents a structured summary of the Nakashima et al. 2003 manuscript based on published record.
+Full supplementary tables and raw data not included in this summary.

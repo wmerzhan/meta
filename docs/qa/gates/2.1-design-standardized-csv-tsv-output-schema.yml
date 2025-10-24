@@ -1,0 +1,39 @@
+schema: 1
+story: '2.1'
+story_title: 'Design Standardized CSV/TSV Output Schema'
+gate: PASS
+status_reason: 'Sample dataset metric labels now match schema guidance; no blocking issues outstanding.'
+reviewer: 'Quinn (Test Architect)'
+updated: '2025-10-22T21:47:00+08:00'
+quality_score: 100
+top_issues: []
+waiver:
+  active: false
+evidence:
+  tests_reviewed: 1
+  risks_identified: 0
+  trace:
+    ac_covered: [1, 2, 3, 4, 6, 7]
+    ac_gaps: []
+nfr_validation:
+  security:
+    status: PASS
+    notes: 'Documentation-only change; no security impact identified.'
+  performance:
+    status: PASS
+    notes: 'Static assets only; no runtime paths affected.'
+  reliability:
+    status: PASS
+    notes: 'Sample datasets and guidance now aligned, preventing metric misinterpretation.'
+  maintainability:
+    status: PASS
+    notes: 'Documentation and tests are well-structured with clear change management guidance.'
+recommendations:
+  immediate:
+    - action: 'Ensure R CLI (`Rscript`) is available locally before running `tests/validation/test_compiled_schema_readr.R`; document this prerequisite where appropriate.'
+      refs:
+        - tests/validation/test_compiled_schema_readr.R
+  future:
+    - action: 'Consider adding automated CI coverage for the readr compatibility script once R is part of the toolchain.'
+      refs:
+        - .github/workflows/

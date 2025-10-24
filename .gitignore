@@ -166,3 +166,6 @@ site/
 # Local research data (should not be committed)
 local_data/
 research_data/
+# BMAD (local only)
+.bmad-core/
+.bmad-*/

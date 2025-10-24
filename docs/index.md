@@ -61,6 +61,14 @@ Advanced features will include:
 
     [:octicons-arrow-right-24: Best Practices](best-practices.md)
 
+-   :material-checkbox-marked-circle-outline:{ .lg .middle } __Publication Guide__
+
+    ---
+
+    Document AI usage transparently for peer review and publication
+
+    [:octicons-arrow-right-24: RAAA Transparency Appendix](raaa-usage.md)
+
 -   :material-architecture:{ .lg .middle } __Architecture__
 
     ---
@@ -78,6 +86,20 @@ Advanced features will include:
     [:octicons-arrow-right-24: Contributing Guide](../CONTRIBUTING.md)
 
 </div>
+
+## Success Stories from the Beta Program
+
+- [Cardiovascular Risk Factor Review (Public Health)](case-studies/cardiovascular-risk-factors.md)
+- [K-12 Literacy Interventions (First-Time Meta-Analyst)](case-studies/literacy-interventions-novice-user.md)
+- [Climate Intervention Evidence Synthesis](case-studies/climate-intervention-exploration.md)
+
+## Community Launch Resources
+
+- [Community Launch Plan](launch/community-launch-plan.md)
+- [Launch Metrics Dashboard](launch/metrics-dashboard.md)
+- [Methodology Preprint Outline](launch/methodology-preprint.md)
+- [Testimonials & Credibility Signals](launch/testimonials.md)
+- [Support Plan & Roadmap](launch/support-plan.md)
 
 ## Why MAestro?
 

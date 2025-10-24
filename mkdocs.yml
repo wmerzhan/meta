@@ -69,10 +69,20 @@ nav:
   - Documentation:
       - Best Practices: best-practices.md
       - Architecture: architecture.md
+  - Success Stories:
+      - Cardiovascular Risk Factors: case-studies/cardiovascular-risk-factors.md
+      - K-12 Literacy Interventions: case-studies/literacy-interventions-novice-user.md
+      - Climate Intervention Evidence Synthesis: case-studies/climate-intervention-exploration.md
   - API Reference:
       - API Overview: api/index.md
   - Community:
       - Contributing: ../CONTRIBUTING.md
+  - Launch:
+      - Community Launch Plan: launch/community-launch-plan.md
+      - Launch Metrics Dashboard: launch/metrics-dashboard.md
+      - Methodology Preprint Outline: launch/methodology-preprint.md
+      - Testimonials & Credibility Signals: launch/testimonials.md
+      - Post-Launch Support Plan: launch/support-plan.md
 
 extra:
   social:
