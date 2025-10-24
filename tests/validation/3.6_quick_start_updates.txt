@@ -1,0 +1,41 @@
+# Task 5: Quick Start Guide Updates - REQUIREMENTS DOCUMENT
+
+## Sections to Add/Expand in docs/quickstart.md
+
+### 1. Troubleshooting: Error Messages & Solutions (NEW)
+Add section explaining common error messages from FM-002 feedback:
+- "Validation failed" → Check YAML syntax, sample size field
+- "Invalid format" → Check markdown table alignment, pipe delimiters
+- "Metadata missing" → Verify all required YAML frontmatter fields present
+
+### 2. Platform Setup: Terminal Configuration (NEW)
+Document solutions for:
+- Windows PowerShell: UTF-8 emoji support
+- macOS Terminal: Font settings for emoji rendering
+- Linux terminals: Locale configuration for UTF-8
+
+### 3. Handling Edge Cases (EXPAND)
+Add sections for:
+- Multi-arm trials: "Extract all pairwise comparisons; identify primary"
+- Poor-quality PDFs: "Use pre-extraction checklist; extract conservatively"
+- Large papers (>20 pages): "Verify effect sizes against source; flag suspicious round numbers"
+
+### 4. Learning Curve & Time Expectations (NEW)
+Document from beta testing data:
+- Week 1: 52 minutes average per paper (steep learning curve)
+- Week 3: 44 minutes average (improving)
+- Week 6: 36 minutes average (expert mode)
+- Expected: Non-experts improve 30-40% by week 3
+
+### 5. FAQ Updates (EXPAND)
+Add beta tester questions:
+- "Why does the pre-extraction checklist say 'PDF quality poor'?"
+- "What's a multi-arm trial and how do I handle it?"
+- "How do I know if an effect size is hallucinated?"
+- "Can I edit a data card after extraction?"
+
+## Implementation Status
+- [ ] Update docs/quickstart.md with above sections
+- [ ] Add examples from Microscope v1.1 showing new features
+- [ ] Review with non-technical user for clarity
+

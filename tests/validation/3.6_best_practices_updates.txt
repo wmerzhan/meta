@@ -1,0 +1,66 @@
+# Task 6: Best Practices Documentation Updates - REQUIREMENTS DOCUMENT
+
+## Sections to Add/Expand in docs/best-practices.md
+
+### 1. FAQ: Top 10 Questions from Beta Testers (NEW)
+Based on FM-002 (error messages) and FM-012 (terminology):
+
+**Q1:** What does 🟢 green really mean?
+**A1:** Directly from paper, high confidence (85-95% accurate)
+
+**Q2:** Should I check every green label?
+**A2:** Spot-check key fields (effect size, sample size); most reliable but ~11% miss errors
+
+**Q3:** What does it mean when Microscope says "validation failed"?
+**A3:** Usually YAML syntax error; check triple dashes, colons, spacing
+
+**Q4:** Can I use this for publication?
+**A4:** Not without expert review. 85.7% accuracy is good for exploration, not publication-ready
+
+**Q5:** How do I handle a paper with multiple effect sizes?
+**A5:** Extract all comparisons; clearly identify which is primary
+
+**Q6:** What's the difference between 🟡 yellow calculated values and 🟢 direct values?
+**A6:** Yellow = we computed it; show your work. Green = paper stated it directly
+
+**Q7:** How long does extraction really take?
+**A7:** Week 1: ~50 min; Week 3: ~44 min; Week 6: ~36 min (learning curve effect)
+
+**Q8:** What does "effect size seems suspiciously round" mean?
+**A8:** 0.50, 1.00 on large PDFs might be hallucinations; verify source
+
+**Q9:** Which studies should I NOT extract?
+**A9:** Scanned PDFs from 1980s-1990s (57% failure rate); non-English if not supported
+
+**Q10:** How do I know if a data card quality is good?
+**A10:** Low 🔴 rate (<10%), baseline characteristics reported, effect sizes precise
+
+### 2. Glossary of Statistical & Methodological Terms (NEW)
+Create plain-language definitions:
+- **Intention-to-treat (ITT):** Analyze everyone in their assigned group, even if dropped out
+- **Completers-only:** Analyze only those who finished; introduces bias
+- **Differential attrition:** Dropout rates differ between groups; concerning
+- **Cohen's d:** Effect size = how big the treatment effect is; 0.2=small, 0.5=medium, 0.8=large
+- **Confounding:** Other variable that affects both treatment and outcome
+- **Confounding control:** Methods to account for confounding (randomization, ANCOVA)
+
+### 3. Troubleshooting: When Things Go Wrong (EXPAND)
+Document failure modes from Story 3.5:
+- "Many 🔴 red labels": Check PDF quality; older papers have more reporting gaps
+- "Effect size extraction failed": Check if study has required statistics
+- "Multi-arm trial confusing": Use new Microscope v1.1 guidance; extract all comparisons
+- "Unclear error messages": See Quick Start troubleshooting section
+
+### 4. Plain Language Explanations (NEW)
+Make statistical concepts accessible (per FM-012):
+- "These symbols mean data quality" → Brief explanation of 🟢🟡🔴
+- "What's a data card?" → "Like a form filled out about one study"
+- "Why do we flag uncertain data?" → "Better to know something is uncertain than assume it's true"
+
+## Implementation Status
+- [ ] Update docs/best-practices.md with FAQ section (min 8-10 Q&A pairs)
+- [ ] Create separate glossary file (docs/glossary.md) or inline
+- [ ] Add troubleshooting section with failure mode guidance
+- [ ] Include plain-language explanations throughout
+- [ ] Review for non-technical readability
+
