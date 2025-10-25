@@ -1,8 +1,10 @@
 # MAestro Launch Metrics Dashboard
 
-**Reporting Cadence:** Weekly (Mondays)  
-**Owner:** Solo founder (MAestro)  
-**Launch Window:** 2025-11-03 → 2025-11-30
+**Release Date:** October 25, 2025 (v0.1.0-alpha)
+**Reporting Cadence:** Weekly (Mondays)
+**Owner:** Solo founder (MAestro)
+**Launch Window:** 2025-10-25 → 2025-11-30
+**Status:** Community Launch Phase - Week 1 Tracking
 
 ---
 
